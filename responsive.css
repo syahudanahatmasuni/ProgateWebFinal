@@ -1,0 +1,93 @@
+@media all and (max-width: 1000px) {
+    .top-text-1{
+        font-size: 50px;
+    }
+    .top-text{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .img-top{
+        width: 100%;
+    }
+    .img-top img{
+        width: 350px;
+        display: block;
+        margin:0 auto;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .img-content{
+        width: 33.33%;
+    }
+    .tour {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .flights {
+    	width: 80%;
+    }
+
+    .flight-deals h4 {
+    	font-size: 16px;
+    }
+    .footer-right{
+        display: inline-block;text-align: center;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        float: none;
+    }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block !important;
+    }
+    .main{
+        height: 700px;
+    }
+    .play {
+        width: 90%;
+    }
+
+    .img-content{
+        width: 100%;
+    }
+    .tour {
+        width: 100%;
+    }
+    .flights {
+    	width: 100%
+    }
+    .flight-deals h4 {
+    	font-size: 12px;
+    }
+    .contact-form {
+    	font-size: 14px;
+    }
+    .container img{
+        float: none;
+    }
+    footer{
+        /* height: 600px; */
+    }
+    footer img{
+        margin-bottom:0px;
+    }
+    .container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .facebook {
+        margin-bottom:10px;
+    }
+
+}
